@@ -27,7 +27,9 @@ int main(int argc, char *argv[]){
      *ptr = 'b';     
 
      cout << "a " << a << endl;
+     cout << "&a " << &a << endl;
      cout << "b " << b << endl;
+     cout << "&b " << &b << endl;
      cout << "*ptr " << *ptr << endl;
      cout << "&ptr " << &ptr << endl;
  
