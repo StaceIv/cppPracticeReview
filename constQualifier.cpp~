@@ -1,4 +1,4 @@
-//Declares a variable to be a true read-only constant
+//Declares a variable to be a true read-only constant - It cannot be changed!
 //Wherever a constant expression is permitted a const variable
 //	is permitted (eg. as an array dimension)
 //Const declarations are permitted within header files!
