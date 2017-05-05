@@ -20,7 +20,6 @@ class Circle{
 			
 			r = rr;
 
-			return 0;	
 		};
 		~Circle();
 		float GetR();
