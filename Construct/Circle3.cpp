@@ -25,8 +25,8 @@ void Circle::SetR(float rr){
 }
 
 void Circle::SetArea(float rr){
-     cout << "RADIUS IN SETAREA(): " << r << endl;
-     float area = 3.14f*r*r;
+     ///cout << "RADIUS IN SETAREA(): " << r << endl;
+     float area = 3.14f*rr*rr;
 }
 
 float Circle::GetArea(void){
@@ -38,7 +38,7 @@ int main(int argc, char* argv[]){
 	//Instantiate two Circle objects.
 	Circle first(10.0f, 15.0f, 5.0f);
 	Circle second(15.0f, 25.0f, 65.0f);
-	
+
 	cout << "Area of Object One is: " << first.GetArea() << endl;
 	cout << "Area of Object Two is: " << second.GetArea() << endl;
 
