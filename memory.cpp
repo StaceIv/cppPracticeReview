@@ -3,6 +3,9 @@
 
 using namespace std;
 
+//new and delete are used to allocate and then free (deallocate)
+//memory to instances of a class (int, or char, etc)
+
 int main(int argc, char* argv[]){
      
  	int *i; //pointer to an int.
